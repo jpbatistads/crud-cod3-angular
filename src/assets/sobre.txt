@@ -1,0 +1,1 @@
+Assets é responsável por receber arquivos estáticos.
