@@ -1,0 +1,1 @@
+Todas as visualizações de telas inteiras ficam dentro da View
