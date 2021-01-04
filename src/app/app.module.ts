@@ -22,6 +22,10 @@ import { MatButtonModule } from  '@angular/material/button';
 import {HttpClientModule} from '@angular/common/http';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -43,7 +47,10 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     MatCardModule,
     MatSnackBarModule,
     MatButtonModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
