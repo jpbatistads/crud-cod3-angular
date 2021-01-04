@@ -13,11 +13,14 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
-import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+
 import { ProductCreateComponent } from './components/products/product-create/product-create.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { MatButtonModule } from  '@angular/material/button';
+
+import {HttpClientModule} from '@angular/common/http';
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 
 
 @NgModule({
@@ -39,7 +42,8 @@ import { MatButtonModule } from  '@angular/material/button';
     MatListModule,
     MatCardModule,
     MatSnackBarModule,
-    MatButtonModule
+    MatButtonModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
