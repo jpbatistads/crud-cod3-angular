@@ -14,7 +14,10 @@ import { MatCardModule } from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
-import { ProductCreateComponent } from './components/products/product-create/product-create.component'; 
+import { ProductCreateComponent } from './components/products/product-create/product-create.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+
+import { MatButtonModule } from  '@angular/material/button';
 
 
 @NgModule({
@@ -34,7 +37,9 @@ import { ProductCreateComponent } from './components/products/product-create/pro
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatSnackBarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
